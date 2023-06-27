@@ -88,7 +88,7 @@ document.addEventListener('click', e =>{
     }
     if(target.classList.contains("cardName")){
        openSinglePage(target);
-       window.open("./single.html", "_blank");
+       window.open("./single.html", "_self");
     }
 
 })
