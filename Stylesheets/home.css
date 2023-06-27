@@ -1,0 +1,155 @@
+/* Adding Font Here  */
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Cantarell", sans-serif;
+  background: #3ca55c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Adding css to main Header */
+.main-header {
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.main-header h1 {
+  font-size: 3.5rem;
+}
+.main-header a h3 {
+  cursor: pointer;
+  position: relative;
+  left: 229%;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main-header a img {
+  cursor: pointer;
+  position: relative;
+  right: 400%;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #845d16;
+}
+
+/* adding css for search bar */
+
+.container {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input[type="text"] {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #d0ba00;
+  color: #636864;
+  position: relative;
+  right: 52%;
+  padding: 1rem;
+  padding-left: 50%;
+  padding-right: 60%;
+  border: none;
+  border-radius: 10px;
+}
+.container input[type="submit"] {
+  font-weight: bolder;
+  background-color: #dd0a74;
+  color: #fefffe;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  padding: 0.8rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  border: none;
+  border-radius: 10px;
+}
+.container input[type="submit"]:hover {
+  color: rgb(104, 91, 91);
+}
+
+ /* Search Result Container Styles */
+
+ .searchResultContainer{
+    margin: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+ }
+ .card{
+  width: 32vh;
+  height: 52vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000503;
+  padding-top: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  box-shadow: #383737 8px 10px 30px; 
+ }
+ .poster{
+    width: 25vh;
+    height: 38vh;
+    border: 2px double rgb(241, 29, 160);
+    align-self: center;
+ }
+ .details{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fffefe;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Candara;
+ }
+ .heart-icon{
+  cursor: pointer;
+  padding-top: 10px;
+
+ }
+ .fa-solid {
+  color: red;
+}
+
+/* styles for hover */
+.glow:hover {
+  cursor: pointer;
+  text-shadow: var(--mainColor) 0 0 10px;
+  transform: scale(1.05);
+}
+img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.cardName:hover {
+  cursor: pointer;
+  text-decoration: underline 1px;
+  transform: scale(1.05);
+}
+

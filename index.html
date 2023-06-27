@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Hunter | App</title>
+    <!-- favicon added  -->
+    <link rel="icon" href="Media/favicon.ico">
+    <!-- adding staylesheet here  -->
+    <link rel="stylesheet" href="Stylesheets/home.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <!-- logo of superehero hunter app -->
+      <a href="https://github.com/Sahil-Sayyad/SuperheroHunter_App" target="_blank"><img src="Media/logo.png" alt="main-logo" /></a>
+      <!-- main Heading of the page  -->
+      <h1>SuperHero Hunter</h1>
+      <!-- favourite Name -->
+      <a href="/favourite.html"><h3>Favourites</h3></a>
+    </header>
+    <main>
+      <!-- Added search bar for searching any hero / villan  -->
+      <div class="container">
+        <form action="">
+          <input
+            id="searchcharacter"
+            type="text"
+            name="search "
+            placeholder="Type name or some character "
+          />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+
+      <div id="searchresults" class="searchResultContainer" >
+
+      </div>
+    </main>
+    <!-- Adding Scripts Here  -->
+    <script src="https://kit.fontawesome.com/1d9a93a71b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="JavaScripts/home.js"></script>
+  </body>
+</html>

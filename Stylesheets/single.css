@@ -1,0 +1,131 @@
+ /* Adding Font Here  */
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Cantarell", sans-serif;
+  background: #3ca55c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Adding css to main Header */
+.main-header {
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.main-header h1 {
+  font-size: 3.5rem;
+}
+.main-header a h3 {
+  cursor: pointer;
+  position: relative;
+  left: 450%;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-header img {
+  cursor: pointer;
+  position: relative;
+  right: 10%;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #845d16;
+}
+
+h2{
+  position: relative;
+  right: 30.0rem;
+  font-size: large;
+}
+/* details */
+.container {
+    width: 90%;
+    margin: 3%;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.219);
+    display: flex;
+    font-size: 30px;
+    /* align-items: center; */
+}
+.photo {
+    width: 60vh;
+    height: 50vh;
+    margin-right: 1%;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 1px; */
+}
+.category{
+    display: flex;
+    flex-direction: row;
+}
+.category p {
+    margin: 10px;
+}
+.category:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+#desc2 {
+    margin-top: 0;
+}
+.head {
+    font-size: 26px;
+    font-family: Candara;
+    font-weight: 600;
+    color: rgb(150, 107, 65);
+}
+.body {
+    font-size: 20px;
+    font-family: Candara;
+    color: white;
+}
+#icon {
+    position: fixed;
+    translate: 1105px;
+}
+.fa-solid {
+    color: red;
+}
+.fa-regular {
+    color: white;
+}
+
+.glow{
+    font-size: 2.0rem;
+    font-family: Candara;
+
+}
+/* styles for hover */
+.glow:hover {
+    cursor: pointer;
+    text-shadow: var(--mainColor) 0 0 10px;
+    transform: scale(1.05);
+}
+.heart-icon:hover {
+    text-shadow: var(--mainColor) 0 0 10px;
+}
