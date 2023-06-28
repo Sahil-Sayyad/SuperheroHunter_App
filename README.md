@@ -39,7 +39,18 @@
 
 # PRODUCT DEMO
 
-![Superhero Hunter App](https://im2.ezgif.com/tmp/ezgif-2-af6171f312d4.gif)<br>
+<i><b>Home Page </b></li> 
+<br><br>
+![home](https://github.com/Sahil-Sayyad/superheroHunter_App/assets/96423459/eb931478-f71d-4cdd-b5ed-7e4c50711eb4)
+<br><br>
+<i><b>Favourite Page </b></li> 
+<br><br>
+![favourite](https://github.com/Sahil-Sayyad/superheroHunter_App/assets/96423459/4a2ad350-5ba9-4a18-94f0-e2cee84ef0c1)
+<br><br>
+<i><b>Character Info Page </b></li> 
+<br><br>
+![Single](https://github.com/Sahil-Sayyad/superheroHunter_App/assets/96423459/bb919adb-f1ca-4f7f-ba92-a156353d5fd9)
+<br><br>
 
 # LINKS
 
