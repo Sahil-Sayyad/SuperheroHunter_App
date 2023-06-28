@@ -41,7 +41,7 @@
 
 # LINKS
 
-<a href = "https://sahil-sayyad.github.io/superheroHunter_App//"> <b>LIVE PRODUCT</b> </a>  &nbsp; <a href = "https://github.com/Sahil-Sayyad/superheroHunter_App"> <b>CODE</b> </a> <br>
+<a href = "https://superherohunterapp.netlify.app/"> <b>LIVE PRODUCT</b> </a>  &nbsp; <a href = "https://github.com/Sahil-Sayyad/superheroHunter_App"> <b>CODE</b> </a> <br>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 <br>
