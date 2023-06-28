@@ -1,8 +1,10 @@
 # Superhero Hunter App using Vanilla JavaScript
 
-  <li>This is a repository for Superhero Hunter App  Developed using Vanilla JavaScript, HTML, CSS.</li>
-  <br>
-  <li> It is developed to create a soothing Experience with powerful features and clean interface.</li>
+    - This is a repository for Superhero Hunter App  Developed using Vanilla JavaScript, HTML, CSS.
+    - It is developed to create a soothing Experience with powerful features and clean interface.
+    - In this project we use Marvel API to fetch data of any hero/villian by searching its name in the search bar.
+    - User can get more information about them by clicking on the name and add the character to their favorites list by clicking on the   heart    icon.
+  - This project stores the favorite characters in the local storage so the result stays unchanged.
   <br>
 
 # Problem Statement
